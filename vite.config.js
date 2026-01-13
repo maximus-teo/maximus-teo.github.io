@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/maximus-teo.github.io/'
+  base: '/'
 })
