@@ -2,4 +2,4 @@
 
 Currently in development - stay tuned!
 
-- Maximus Teo
+~ Maximus Teo
