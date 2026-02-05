@@ -6,9 +6,16 @@ import "@fontsource/inter";
 import { FaArrowRight, FaGithub, FaEnvelope, FaLinkedin, FaTwitter, FaExternalLinkAlt } from 'react-icons/fa';
 import { motion, useScroll, useTransform } from 'motion/react';
 
+// Import assets to ensure they are bundled
+import aws1 from './assets/aws_workshop_6.png';
+import aws2 from './assets/aws_workshop_5.png';
+import aws3 from './assets/aws_workshop_2.png';
+import bite from './assets/screenshot_lettherebebite.png';
+import wordle from './assets/screenshot_wordle1.png';
+
 const projects = [
   {
-    title: "Market Analysis System",
+    title: "Multi-Agent Financial Advisor",
     description: "A next-gen dashboard for intelligent investment strategies and stock market analysis.",
     tags: ["React/Vue", "Solace Agent Mesh", "Tailwind", "Docker"],
     link: "https://devpost.com/software/uottahack-8",
@@ -16,9 +23,9 @@ const projects = [
   },
   {
     title: "ATS Resume Analyser",
-    description: "ATS Resume Analyser for job applications.",
-    tags: ["Python", "FastAPI", "spaCy", "Tailwind", "PDFMiner"],
-    link: "https://github.com/maximus-teo/resume-analyser",
+    description: "Smart AI-powered resume analyser for optimising your resume.",
+    tags: ["Python", "FastAPI", "spaCy", "Tailwind", "Groq", "Render"],
+    link: "https://resume-analyser-r2jy.onrender.com/",
     color: "from-black-500 to-gray-500"
   },
   {
@@ -38,11 +45,11 @@ const projects = [
 ];
 
 const mediaItems = [
-  { id: 1, type: 'image', src: 'src/assets/aws_workshop_6.png' },
-  { id: 2, type: 'image', src: 'src/assets/aws_workshop_5.png' },
-  { id: 3, type: 'image', src: 'src/assets/aws_workshop_2.png' },
-  { id: 4, type: 'image', src: 'src/assets/screenshot_lettherebebite.png' },
-  { id: 5, type: 'image', src: 'src/assets/screenshot_wordle1.png' },
+  { id: 1, type: 'image', src: aws1 },
+  { id: 2, type: 'image', src: aws2 },
+  { id: 3, type: 'image', src: aws3 },
+  { id: 4, type: 'image', src: bite },
+  { id: 5, type: 'image', src: wordle },
 ];
 
 function App() {

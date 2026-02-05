@@ -1,5 +1,5 @@
-# My Portfolio Website
+# 👋 Hi! I'm Maximus.
 
-Currently in development - stay tuned!
+I'm a CS & Math undergrad at the University of Ottawa, with a strong interest in AI 🤖 & cloud computing ☁️.
 
-~ Maximus Teo
+Check out my portfolio at https://maximus-teo.github.io/ for more info!
